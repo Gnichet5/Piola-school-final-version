@@ -1,4 +1,0 @@
-function cliqueVoltar() {
-  history.back()
-}
-
