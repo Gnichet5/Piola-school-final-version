@@ -1,0 +1,211 @@
+* {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .site-header {
+    position: absolute;
+    display: flex;
+    background-color: #021b30;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    height: 115px;
+    text-align: center;
+    color: #fff;
+    top: 0;
+    border-radius: 0px, 90px, 90px, 0px;
+  }
+  #retornar {
+    position: fixed;
+    background-color: #111B4D;
+    font-size: 60px;
+    height: 115px;
+    width: 100px;
+    margin-left: 10px;
+    align-self: self-start;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer; 
+    box-shadow: none;
+  }
+  #retornar i:hover{
+    transform: scale(1.05);
+    transition: box-shadow 1.2s ease;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+  }
+  #titulo {
+    margin: 0px;
+    font-family: "Questrial", sans-serif;
+    font-style: normal;
+    font-size: 60px;
+  }
+  #subtitulo {
+    font-family: "Questrial", sans-serif;
+    margin: 0px;
+    font-size: 30px;
+  }
+  #logoA {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 80px
+  }
+  .icon {
+    color: #BFAA8C;
+    font-size: xx-large;
+ 
+  }
+  
+  .register-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #021b30;
+    border-radius: 60px;
+    box-sizing: border-box;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    width: 290px;
+    height: 495px;
+    margin-top: 120px;
+    left: 50%; /* Centralize horizontalmente */
+    transform: translateX(-50%); /* Centralize horizontalmente */
+    position: absolute;
+    justify-content: space-around;
+  }
+  
+  .register-header {
+    text-align: center;
+  
+   }
+  
+  .register-header h1 {
+    font-size: 2em;
+    color: #000000;
+    text-shadow: 1px 1px #000000;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="nome"],
+  input[type="email"],
+  input[type="password"],
+  input[type="tel"],
+    select#curso
+{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: #D9D9D9;
+  font-size: 1.2em;
+  color: #000000;
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  text-align: center;
+  width: 240px;
+  margin-left: 1px;
+  font-family: "Questrial", sans-serif;
+  margin-top: 10px;
+  margin-bottom:35px;
+}
+  
+  input[type="text"]:focus,
+  input[type="nome"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="tel"]:focus
+  select#curso:focus 
+{
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+    
+}
+#nome::placeholder {
+  color: #000000;
+    }
+  #email::placeholder {
+    color: #000000;
+  }
+  #password::placeholder{
+    color: #000000;
+  }
+  #Telefone::placeholder{
+    color: #000000;
+  }
+
+  input[type="submit"] {
+    background-color: #254b22;
+    border: none;
+    border-radius: 90px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+
+  }
+  #confirmar {
+    font-family: 'Cutive Mono';
+    width: 200px;
+    height: 60px;
+    margin-left: 25px;
+  }
+  input[type="submit"]:hover {
+    background-color: rgb(39, 70, 39);
+  }
+  
+  .register-button {
+    background-color: #BFAA8C;
+    border: none;
+    border-radius: 90px;
+    color: #000000;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    transition: 0.25s;
+  }
+  .register-button:hover {
+    box-shadow: 0 0 8px rgba(134, 133, 133, 0.396);
+  }
+
+  #retornar i:hover{
+    transform: scale(1.05);
+    transition: box-shadow 1.2s ease;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+    color: #bebebe;
+  }
+  
+  #retornar a:visited{
+    color: #ffffff;
+  }
+
+  #retornar a:link{
+    color: #ffffff;
+  }
+
+  .errormsg {
+    text-align: center;
+    color: #f9f9f9;
+    font-family: "Questrial", sans-serif;
+    font-size: 1em;
+  }
+  

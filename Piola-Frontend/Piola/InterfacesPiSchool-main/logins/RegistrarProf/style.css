@@ -1,0 +1,167 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Isso garante que o corpo ocupe toda a altura da tela */
+  margin: 0; /* Remove margens padrão do corpo */
+  background-color: #f0f0f0; /* Define uma cor de fundo para a tela inteira */
+}
+.register-card {
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+  background-color: #021b30;
+  border-radius: 60px;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  width: 290px;
+  height: 600px;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  color: #BFAA8C;
+  font-size: 40px;
+  margin-left: 104px;
+  padding-top: 10px;
+}
+
+
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+#curso {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: #D9D9D9;
+  font-size: 1.2em;
+  color: #000000;
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  text-align: center;
+  width: 240px;
+  margin-left: 1px;
+  font-family: "Questrial", sans-serif;
+  margin-top: 30px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+#curso:focus {
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+#email::placeholder {
+  color: #000000;
+}
+#password::placeholder{
+  color: #000000;
+}
+input[type="submit"] {
+  background-color: #111B4D;
+  border: none;
+  border-radius: 90px;
+  color: #f0f8ea;
+  cursor: pointer;
+  font-size: 1.2em;
+  transition: background-color 0.3s ease;
+}
+#confirmar {
+  width: 200px;
+  height: 60px;
+  margin-left: 25px;
+  font-family: "Questrial", sans-serif;
+}
+.login-button {
+  background-color: #BFAA8C;
+  border: none;
+  border-radius: 90px;
+  color: #000000;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 10px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  transition: 0.25s;
+}
+.login-button:hover {
+  box-shadow: 0 0 8px rgb(0, 47, 255);
+}
+
+#curso {
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #D9D9D9;
+  font-size: 1.2em;
+  color: #000000;
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  text-align: center;
+  width: 240px;
+  margin-left: 1px;
+  font-family: "Questrial", sans-serif;
+}
+
+#curso > option {
+  margin: 2px 8px;
+  text-align: center;
+}
+
+select {
+  border-radius: 90px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ccc;
+}
+
+
+#number {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: #D9D9D9;
+  font-size: 1.2em;
+  color: #000000;
+  box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  text-align: center;
+  width: 240px;
+  margin-left: 1px;
+  font-family: "Questrial", sans-serif;
+}
+
+#number::placeholder {
+  color: black;
+}
+
+.errormsg {
+  text-align: center;
+  color: #f9f9f9;
+  font-family: "Questrial", sans-serif;
+  font-size: 1em;
+}
