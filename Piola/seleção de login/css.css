@@ -1,0 +1,111 @@
+section.logins{
+  padding: 40px 4%;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo{
+  margin-top: 15px;
+}
+h4.titulo{
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+  font-family: 'Questrial', sans-serif;
+}
+
+h4.titulo span{
+  color: #111B4D;
+}
+
+.logins .flex {
+  display: flex;
+  justify-content: space-between; /* Distribuir os elementos uniformemente */
+}
+
+.logins .logins-box {
+  flex: 1; /* Distribuir espaço igualmente entre os elementos */
+  border: 2px solid #ccccccaa; /* Adicione uma borda para melhor visualização */
+  padding: 20px;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 90px;
+  border-radius: 15px;
+  transition: 1.5s;
+}
+
+.logins .logins-box i {
+  font-size: 20px;
+}
+
+.logins .logins-box h3{
+font-size: x-large;
+font-family: 'Lexend Deca', sans-serif;
+}
+
+.logins .logins-box:hover{
+  transform: scale(1.08);
+box-shadow: 0 0 20px rgba(255, 255, 255, 0.336);
+}
+
+.logins-box a {
+  text-decoration: none;
+  color: #021b30;
+}
+
+.logins-box p {
+  font-family: 'Questrial', sans-serif;
+}
+
+#retornar {
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  background-color: black;
+  font-size: 60px;
+  height: 115px;
+  width: 100px;
+  margin-left: 10px;
+  align-self: self-start;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer; 
+margin-left: 20px;
+  margin-right: 270px;
+  margin-top: 32px;
+}
+#retornar i:hover{
+  transform: scale(1.05);
+  transition: box-shadow 1.2s ease;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+  color: black;
+}
+#retornar a:visited{
+  position: fixed;
+  top: 10px;
+  left: 5px;
+  background-color: black;
+  font-size: 60px;
+  height: 115px;
+  width: 100px;
+  margin-left: 10px;
+  align-self: self-start;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer; 
+}
+#retornar i:hover{
+  transform: scale(1.05);
+  transition: box-shadow 1.2s ease;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+  color: black;
+}
+#retornar a:visited{
+  color: black;
+}
+
+#retornar a:link{
+  color: black;
+}

@@ -1,0 +1,372 @@
+#cabeçalho {
+  list-style-type: none;
+  background-color: #021b30;
+ height: 130px;
+  display: flex;
+  justify-content: center;
+
+ width: 100%;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#menu a {
+  text-decoration: none;
+  color: white;
+  font-family: "Questrial", sans-serif;
+  font-size: x-large;
+
+}
+
+#menu li {
+  display: inline;
+}
+
+
+.logo {
+  margin-left: 500px;
+  margin-right:10px;
+  width: 70x;
+ height: 70px;
+ }
+
+ 
+ .ajuda {
+  color: white;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: x-large;
+  white-space: nowrap; /* Impede que o texto seja quebrado em várias linhas */
+  margin-left: 550px;
+  margin-right: 40px;
+ 
+ 
+}
+
+#retornar {
+
+ 
+  background-color: #111B4D;
+  font-size: 60px;
+  height: 115px;
+  width: 100px;
+ 
+  align-self: self-start;
+  color: #D9D9D9;
+  background: none;
+  border: none;
+  cursor: pointer; 
+
+
+}
+#retornar i:hover{
+  transform: scale(1.05);
+  transition: box-shadow 1.2s ease;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+  color: #bebebe;
+}
+#retornar a:visited{
+ 
+
+  left: 5px;
+  background-color: #111B4D;
+  font-size: 60px;
+  height: 115px;
+  width: 100px;
+  margin-left: 15px;
+  align-self: self-start;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer; 
+}
+#retornar i:hover{
+  transform: scale(1.05);
+  transition: box-shadow 1.2s ease;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.396);
+  color: #bebebe;
+}
+#retornar a:visited{
+  color: #f8f2f2;
+}
+
+#retornar a:link{
+  color: #f8f2f2;
+}
+
+
+.bpt {
+ 
+  font-family: 'Lexend Exa', sans-serif;
+  color:black;
+  border-radius: 15px;
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+}
+
+
+#principal{
+
+  background-color: white;
+  overflow: hidden;
+}
+
+
+#foruns{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 20px;
+max-width: 900px;
+padding: 20px;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+}
+
+
+.main{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+div.newPost{
+  width:100%;
+  height: 190px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 50px 0;
+  padding:25px;
+
+  background:#fff;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.05);
+}
+
+div.newPost div.infoUser{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.newPost div.infoUser div.imgUser{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: white;
+}
+
+div.newPost div.infoUser strong{
+  font-size: 16px;
+  color:#111B4D;
+  margin-left: 10px;
+  font-family: 'Lexend Exa', sans-serif;
+}
+
+div.newPost form.formPost{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+div.newPost form.formPost textarea{
+  background: #fbfbfb;
+  margin:15px 0;
+  padding: 25px;
+  border-radius: 10px;
+  resize: none;
+  border: 0;
+  height: 90px;
+  outline: none;
+
+  font-weight: bold;
+  color:#727272;
+  font-family: 'Lexend Exa', sans-serif;
+  border:2px solid #fff;
+}
+div.newPost form.formPost textarea:focus{
+  border:2px solid #23a0ff;
+
+}
+div.newPost form.formPost div.iconsAndButton{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Questrial', sans-serif;
+  color: #111B4D;
+  margin-left: 80%;
+}
+div.newPost form.formPost div.iconsAndButton div.icons{
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Questrial', sans-serif;
+}
+div.newPost form.formPost div.iconsAndButton div.icons button{
+  outline: none;
+  margin-right: 15px;
+  border:0;
+  background: #fff;
+  cursor: pointer;
+  font-family: 'Questrial', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.newPost form.formPost div.iconsAndButton button.btnSubmitForm{
+  background: #111B4D;
+  padding: 10px 50px;
+  color:#fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Questrial', sans-serif;
+  border: 0;
+  border-radius: 10px;
+  transition: background 0.2s;
+}
+div.newPost form.formPost div.iconsAndButton button.btnSubmitForm:hover{
+  background: #021b30;
+transform: scale(1.05);
+transition: 1.02s;
+}
+
+ul.posts li.post{
+  margin-bottom: 50px;
+  background: #fff;
+  width: 100%;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 1px 0 3px rgba(0,0,0,0.05);
+}
+ul.posts li.post div.infoUserPost{
+  display: flex;
+  align-items: center;
+}
+
+ul.posts li.post div.infoUserPost div.imgUserPost{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #23a0ff;
+}
+ul.posts li.post div.infoUserPost  div.nameAndHour{
+  margin-left: 10px;
+}
+
+ul.posts li.post div.infoUserPost  div.nameAndHour >strong{
+  color:#23a0ff;
+}
+
+ul.posts li.post div.infoUserPost div.nameAndHour  >p{
+  color:#d1d1d1;
+  font-size:12px;
+}
+
+ul.posts li.post >p{
+  width: 100%;
+  margin:20px 0;
+  font-weight: bold;
+  color: #727272;
+}
+ul.posts li.post div.actionBtnPost{
+  display:flex;
+  align-items: center;
+}
+ul.posts li.post div.actionBtnPost button.filesPost{
+  padding:5px 20px;
+  border: 0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  outline:none;
+  margin-right: 10px;
+  border-radius:10px;
+  cursor: pointer;
+  color:#fff;
+  font-weight: bold;
+  transition: background 0.2s;
+
+}
+
+
+.comment {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 20px 0;
+  padding: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.05);
+  justify-content: space-between;
+}
+
+
+.comment-header {
+ 
+  font-size: 16px;
+  color: #111B4D; /* Cor do nome "Aluno" */
+  font-family: 'Questrial', sans-serif;
+  margin-bottom: 100px; /* Espaçamento inferior */
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.comment-text {
+  /* Estilize o conteúdo do comentário aqui */
+  font-size: 14px;
+  color: #000; /* Cor do texto do comentário */
+  margin-bottom: 10px; /* Espaçamento inferior */
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.comment-time {
+  /* Adicione estilos para a hora do comentário aqui */
+  font-size: 12px;
+  color: #727272; /* Cor do texto da hora */
+  margin-top: 10px; /* Espaçamento superior */
+}
+
+
+/* Estilos para o botão "Responder" */
+.reply-button {
+background: #111B4D;
+color: #fff;
+font-weight: bold;
+cursor: pointer;
+border: 0;
+border-radius: 10px;
+padding: 5px 20px;
+margin-top: 10px;
+font-family: 'Questrial', sans-serif;
+transition: background 0.2s;
+}
+
+.reply-button:hover {
+background: #021b30;
+transform: scale(1.05);
+transition: 1.02s;
+}
+
+/* Estilos para o contêiner de respostas */
+.reply-container {
+margin-top: 10px;
+padding-left: 20px; /* Para recuar as respostas um pouco em relação ao comentário original */
+}
+
+/* Estilos para cada resposta */
+.reply-comment {
+border-left: 2px solid #111B4D; /* Uma borda à esquerda para separar as respostas */
+padding-left: 10px; /* Espaço à esquerda para a borda */
+margin-top: 10px;
+}
